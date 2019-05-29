@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyAveSHqiwFItFzG0yuZAsgksN_wON-xF08",
+    authDomain: "crossappnote.firebaseapp.com",
+    databaseURL: "https://crossappnote.firebaseio.com",
+    projectId: "crossappnote",
+    storageBucket: "crossappnote.appspot.com",
+    messagingSenderId: "26438955068"
+
+  }
 };
 
 /*
